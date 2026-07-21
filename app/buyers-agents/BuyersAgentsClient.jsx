@@ -72,7 +72,7 @@ export default function BuyersAgentsClient() {
                 you shortlist.
               </h1>
               <p className="text-lg md:text-xl text-ink/75 max-w-2xl leading-relaxed">
-                A summary of the strata records for every apartment your client is considering. Shows you found the risks before your client did. Costs less than one bad shortlist decision. Partner tier: free for verified buyers' agents.
+                A summary of the strata records for every apartment your client is considering. Shows you found the risks before your client did. Costs less than one bad shortlist decision. $9 per report, or $300/month unlimited, for verified buyers' agents.
               </p>
               <div className="flex flex-wrap items-center gap-6 mt-10">
                 <a href="#partner" className="bg-ink text-cream px-8 py-4 font-medium hover:bg-red transition-colors flex items-center gap-2">
@@ -89,12 +89,8 @@ export default function BuyersAgentsClient() {
               </div>
               <div className="space-y-6 mt-4">
                 <div>
-                  <div className="serif text-5xl font-bold">Free</div>
-                  <div className="text-sm text-ink/60">Up to 10 reports/month.</div>
-                </div>
-                <div>
-                  <div className="serif text-5xl font-bold">$29</div>
-                  <div className="text-sm text-ink/60">per report over the free tier.</div>
+                  <div className="serif text-5xl font-bold">$9</div>
+                  <div className="text-sm text-ink/60">per report, pay as you go.</div>
                 </div>
                 <div>
                   <div className="serif text-5xl font-bold">$300</div>
@@ -179,33 +175,19 @@ export default function BuyersAgentsClient() {
             </div>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6">
-            <div className="border-2 border-cream/20 p-8 bg-ink">
-              <div className="mono text-[10px] uppercase tracking-widest text-cream/50 mb-2">
-                Starter
-              </div>
-              <div className="serif text-6xl font-bold text-gold mb-1">Free</div>
-              <div className="text-sm text-cream/60 mb-6">Up to 10 reports/month</div>
-              <ul className="space-y-2 text-sm text-cream/85">
-                <li className="flex gap-2"><CheckCircle2 size={16} className="text-gold mt-0.5 shrink-0" /> 10 free summaries/month</li>
-                <li className="flex gap-2"><CheckCircle2 size={16} className="text-gold mt-0.5 shrink-0" /> Full plain-English output</li>
-                <li className="flex gap-2"><CheckCircle2 size={16} className="text-gold mt-0.5 shrink-0" /> PDF + browser version</li>
-                <li className="flex gap-2"><CheckCircle2 size={16} className="text-gold mt-0.5 shrink-0" /> No credit card required</li>
-              </ul>
-            </div>
-
+          <div className="grid md:grid-cols-2 gap-6">
             <div className="border-2 border-gold p-8 bg-cream text-ink relative">
               <div className="absolute -top-3 left-6 bg-gold text-ink mono text-[10px] uppercase tracking-widest px-2 py-1">
                 Most popular
               </div>
-              <div className="mono text-[10px] uppercase tracking-widest text-ink/50 mb-2">Standard</div>
-              <div className="serif text-6xl font-bold mb-1">$29</div>
-              <div className="text-sm text-ink/60 mb-6">per report over 10/mo</div>
+              <div className="mono text-[10px] uppercase tracking-widest text-ink/50 mb-2">Pay as you go</div>
+              <div className="serif text-6xl font-bold mb-1">$9</div>
+              <div className="text-sm text-ink/60 mb-6">per report, no commitment</div>
               <ul className="space-y-2 text-sm text-ink/80">
-                <li className="flex gap-2"><CheckCircle2 size={16} className="text-red mt-0.5 shrink-0" /> First 10 reports/month free</li>
-                <li className="flex gap-2"><CheckCircle2 size={16} className="text-red mt-0.5 shrink-0" /> $29 per additional report</li>
+                <li className="flex gap-2"><CheckCircle2 size={16} className="text-red mt-0.5 shrink-0" /> $9 per report</li>
                 <li className="flex gap-2"><CheckCircle2 size={16} className="text-red mt-0.5 shrink-0" /> No minimum spend</li>
-                <li className="flex gap-2"><CheckCircle2 size={16} className="text-red mt-0.5 shrink-0" /> Monthly invoicing</li>
+                <li className="flex gap-2"><CheckCircle2 size={16} className="text-red mt-0.5 shrink-0" /> Every finding page-cited</li>
+                <li className="flex gap-2"><CheckCircle2 size={16} className="text-red mt-0.5 shrink-0" /> PDF + browser version</li>
               </ul>
             </div>
 
