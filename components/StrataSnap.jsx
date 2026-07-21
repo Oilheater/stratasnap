@@ -217,6 +217,10 @@ export default function StrataSnap() {
                       <div className="text-sm text-ink/60">Single report.</div>
                     </div>
                     <div>
+                      <div className="serif text-5xl font-bold">$44.99</div>
+                      <div className="text-sm text-ink/60">5-pack.</div>
+                    </div>
+                    <div>
                       <div className="serif text-5xl font-bold">$74.99</div>
                       <div className="text-sm text-ink/60">
                         10-pack. The shortlister's tool.
