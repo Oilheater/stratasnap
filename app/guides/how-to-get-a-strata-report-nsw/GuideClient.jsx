@@ -241,9 +241,9 @@ export default function GuideClient() {
                     <span className="font-medium">
                       Contact the managing agent.
                     </span>{" "}
-                    Google the agent's name to find their website and contact
-                    details. Many large strata managers (Bright & Duggan,
-                    Strata One, All Suburbs Strata) have online request forms.
+                    The search above returns the agent's name and licence
+                    number. Visit the agent's website for their records-request
+                    process — many strata managers offer an online request form.
                   </li>
                   <li>
                     <span className="font-medium">
