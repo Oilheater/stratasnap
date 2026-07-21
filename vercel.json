@@ -1,0 +1,45 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "api/analyse.py": {
+      "runtime": "python3.12",
+      "maxDuration": 300,
+      "memory": 2048
+    },
+    "api/stripe-webhook.py": {
+      "runtime": "python3.12",
+      "maxDuration": 30,
+      "memory": 512
+    },
+    "api/lead.py": {
+      "runtime": "python3.12",
+      "maxDuration": 10,
+      "memory": 256
+    },
+    "api/login.py": {
+      "runtime": "python3.12",
+      "maxDuration": 10,
+      "memory": 256
+    },
+    "api/verify.py": {
+      "runtime": "python3.12",
+      "maxDuration": 10,
+      "memory": 256
+    },
+    "api/logout.py": {
+      "runtime": "python3.12",
+      "maxDuration": 5,
+      "memory": 128
+    },
+    "api/me.py": {
+      "runtime": "python3.12",
+      "maxDuration": 10,
+      "memory": 256
+    },
+    "api/report.py": {
+      "runtime": "python3.12",
+      "maxDuration": 10,
+      "memory": 256
+    }
+  }
+}
