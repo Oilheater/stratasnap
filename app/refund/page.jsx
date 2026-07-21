@@ -43,6 +43,9 @@ export default function RefundPage() {
             <li>Once you have received a summary, we don't refund it. If the summary contains an error, email us at hello@stratasnap.com.au — we'll review and correct it, or refund that specific summary if we can't.</li>
             <li>Bundle credits (5-pack, 10-pack) don't expire, so we don't refund unused credits under normal circumstances.</li>
           </ul>
+          <p>
+            Where a refund is issued at our discretion (rather than for a fault or failure on our part), any non-recoverable payment processing fee may be deducted. Refunds for a fault or failure on our part are always made in full.
+          </p>
 
           <h2 className="serif text-2xl font-bold mt-10">How to request a refund</h2>
           <p>
