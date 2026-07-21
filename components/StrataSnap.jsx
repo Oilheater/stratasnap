@@ -581,7 +581,7 @@ export default function StrataSnap() {
                     White-label summaries for your firm
                   </div>
                   <p className="text-sm text-ink/70">
-                    $39 wholesale · $200/mo minimum · your branding on every summary
+                    $149/mo platform · $9 per report · your branding on every summary
                   </p>
                 </Link>
                 <Link
@@ -592,10 +592,10 @@ export default function StrataSnap() {
                     For buyers' agents →
                   </div>
                   <div className="serif text-2xl font-bold mb-2">
-                    Free tier for verified partners
+                    Simple per-report pricing for partners
                   </div>
                   <p className="text-sm text-ink/70">
-                    10 free reports/month · PIPA/REBAA verification · apply to partner
+                    $9 per report or $300/mo unlimited · PIPA/REBAA verification · apply to partner
                   </p>
                 </Link>
               </div>
