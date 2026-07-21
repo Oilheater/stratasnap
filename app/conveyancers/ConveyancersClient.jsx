@@ -89,12 +89,12 @@ export default function ConveyancersClient() {
               <div className="mono text-[10px] uppercase tracking-widest text-ink/50 mb-2">Key numbers</div>
               <div className="space-y-6 mt-4">
                 <div>
-                  <div className="serif text-5xl font-bold">$39</div>
-                  <div className="text-sm text-ink/60">wholesale per report.</div>
+                  <div className="serif text-5xl font-bold">$149</div>
+                  <div className="text-sm text-ink/60">per month, white-label included.</div>
                 </div>
                 <div>
-                  <div className="serif text-5xl font-bold">$200</div>
-                  <div className="text-sm text-ink/60">monthly minimum.</div>
+                  <div className="serif text-5xl font-bold">$9</div>
+                  <div className="text-sm text-ink/60">per report.</div>
                 </div>
                 <div>
                   <div className="serif text-5xl font-bold">~3 min</div>
@@ -288,16 +288,31 @@ export default function ConveyancersClient() {
             </div>
             <div className="md:col-span-6 md:col-start-7 flex items-end">
               <p className="text-ink/75 leading-relaxed">
-                Pay only for reports you use. Minimum monthly commitment covers our operating costs. Cancel any time with 30 days' notice.
+                A flat monthly platform fee gives you white-label access; you pay a low per-report price on top. No lock-in - month to month, cancel any time.
               </p>
             </div>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="border-2 border-red p-8 bg-ink text-cream relative">
+              <div className="absolute -top-3 left-6 bg-red text-cream mono text-[10px] uppercase tracking-widest px-2 py-1">
+                Partner plan
+              </div>
+              <div className="mono text-[10px] uppercase tracking-widest text-gold mb-2">Platform</div>
+              <div className="serif text-6xl font-bold mb-1">$149</div>
+              <div className="text-sm text-cream/60 mb-6">per month, white-label included</div>
+              <ul className="space-y-2 text-sm text-cream/85">
+                <li className="flex gap-2"><CheckCircle2 size={16} className="text-gold mt-0.5 shrink-0" /> Your logo and colours on every report</li>
+                <li className="flex gap-2"><CheckCircle2 size={16} className="text-gold mt-0.5 shrink-0" /> Branded upload URL (reports.yourfirm.com.au)</li>
+                <li className="flex gap-2"><CheckCircle2 size={16} className="text-gold mt-0.5 shrink-0" /> Firm dashboard and report history</li>
+                <li className="flex gap-2"><CheckCircle2 size={16} className="text-gold mt-0.5 shrink-0" /> Month to month, cancel any time</li>
+              </ul>
+            </div>
+
             <div className="border border-ink/30 p-8 bg-cream">
-              <div className="mono text-[10px] uppercase tracking-widest text-ink/50 mb-2">Per-report</div>
-              <div className="serif text-6xl font-bold mb-1">$39</div>
-              <div className="text-sm text-ink/60 mb-6">wholesale per summary</div>
+              <div className="mono text-[10px] uppercase tracking-widest text-ink/50 mb-2">Per report</div>
+              <div className="serif text-6xl font-bold mb-1">$9</div>
+              <div className="text-sm text-ink/60 mb-6">per summary, on top of the platform fee</div>
               <ul className="space-y-2 text-sm text-ink/80">
                 <li className="flex gap-2"><CheckCircle2 size={16} className="text-ink/40 mt-0.5 shrink-0" /> Full plain-English summary</li>
                 <li className="flex gap-2"><CheckCircle2 size={16} className="text-ink/40 mt-0.5 shrink-0" /> Every finding page-cited</li>
@@ -305,37 +320,10 @@ export default function ConveyancersClient() {
                 <li className="flex gap-2"><CheckCircle2 size={16} className="text-ink/40 mt-0.5 shrink-0" /> PDF + browser version</li>
               </ul>
             </div>
-
-            <div className="border-2 border-red p-8 bg-ink text-cream relative">
-              <div className="absolute -top-3 left-6 bg-red text-cream mono text-[10px] uppercase tracking-widest px-2 py-1">
-                Standard plan
-              </div>
-              <div className="mono text-[10px] uppercase tracking-widest text-gold mb-2">Monthly minimum</div>
-              <div className="serif text-6xl font-bold mb-1">$200</div>
-              <div className="text-sm text-cream/60 mb-6">per month</div>
-              <ul className="space-y-2 text-sm text-cream/85">
-                <li className="flex gap-2"><CheckCircle2 size={16} className="text-gold mt-0.5 shrink-0" /> Covers ~5 reports/mo included</li>
-                <li className="flex gap-2"><CheckCircle2 size={16} className="text-gold mt-0.5 shrink-0" /> Additional reports at $39 each</li>
-                <li className="flex gap-2"><CheckCircle2 size={16} className="text-gold mt-0.5 shrink-0" /> Unused reports don't roll over</li>
-                <li className="flex gap-2"><CheckCircle2 size={16} className="text-gold mt-0.5 shrink-0" /> 30-day cancellation notice</li>
-              </ul>
-            </div>
-
-            <div className="border border-ink/30 p-8 bg-cream">
-              <div className="mono text-[10px] uppercase tracking-widest text-ink/50 mb-2">White-label add-on</div>
-              <div className="serif text-6xl font-bold mb-1">$150</div>
-              <div className="text-sm text-ink/60 mb-6">one-off setup</div>
-              <ul className="space-y-2 text-sm text-ink/80">
-                <li className="flex gap-2"><CheckCircle2 size={16} className="text-ink/40 mt-0.5 shrink-0" /> Your logo on all outputs</li>
-                <li className="flex gap-2"><CheckCircle2 size={16} className="text-ink/40 mt-0.5 shrink-0" /> Branded upload URL</li>
-                <li className="flex gap-2"><CheckCircle2 size={16} className="text-ink/40 mt-0.5 shrink-0" /> Custom firm colours</li>
-                <li className="flex gap-2"><CheckCircle2 size={16} className="text-ink/40 mt-0.5 shrink-0" /> Set up within 5 business days</li>
-              </ul>
-            </div>
           </div>
 
           <p className="text-sm text-ink/60 mt-8 text-center">
-            All prices in AUD, excluding GST. Volume discounts available for firms processing 30+ reports/month.
+            All prices in AUD, excluding GST. Volume pricing available for firms processing 30+ reports per month.
           </p>
         </div>
       </section>
