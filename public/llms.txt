@@ -1,0 +1,24 @@
+# StrataSnap
+
+> AI-powered plain-English summaries of NSW strata reports for apartment buyers. Upload a strata document (vendor report, owners corporation records, or a Section 184 certificate) and receive a structured summary covering finances, capital works funds, special levies, insurance, by-laws, defects and disputes, with references to the Strata Schemes Management Act 2015 (NSW).
+
+## About
+
+StrataSnap is an information tool for people buying apartments, townhouses and units in New South Wales, Australia. It summarises the contents of strata documents in plain English. It does not provide legal, financial or property advice, and does not tell users whether to buy a property or whether a by-law is enforceable. Users are directed to a qualified conveyancer or solicitor for advice.
+
+## Key pages
+
+- Home: https://stratasnap.com.au
+- How to get a strata report in NSW (guide): https://stratasnap.com.au/guides/how-to-get-a-strata-report-nsw
+- For conveyancers: https://stratasnap.com.au/conveyancers
+- For buyers agents: https://stratasnap.com.au/buyers-agents
+
+## Pricing
+
+- Single report: $14.99
+- 5-pack: $44.99
+- 10-pack: $74.99
+
+## Topics covered
+
+Section 184 certificate, strata search, owners corporation records, strata inspection report, capital works fund, special levies, strata insurance, by-laws, building defects, Strata Schemes Management Act 2015, NSW strata.
