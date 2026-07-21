@@ -36,7 +36,7 @@ class handler(BaseHTTPRequestHandler):
             ip = self.headers.get("X-Forwarded-For", "").split(",")[0].strip() or None
 
             token = generate_magic_token(email, ip)
-            link_url = f"{SITE_URL}/login?token={token}"
+            link_url = f"{SITE_URL}/api/verify?token={token}"
 
             email_magic_link(email, link_url)
 
