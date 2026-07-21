@@ -3,7 +3,7 @@ import "./globals.css";
 export const metadata = {
   metadataBase: new URL("https://stratasnap.com.au"),
   title: {
-    default: "StrataSnap — Diligence on every apartment, not just the one you buy",
+    default: "Strata Report Summaries in Plain English, NSW — StrataSnap",
     template: "%s · StrataSnap",
   },
   description:
