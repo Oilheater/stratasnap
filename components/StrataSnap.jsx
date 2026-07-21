@@ -142,6 +142,9 @@ export default function StrataSnap() {
             <a href="#how" className="underline-grow">
               How it works
             </a>
+            <Link href="/guides/how-to-get-a-strata-report-nsw" className="underline-grow">
+              How to get a report
+            </Link>
             <a href="#pricing" className="underline-grow">
               Pricing
             </a>
